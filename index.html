@@ -7,6 +7,114 @@
     <title>Document</title>
 </head>
 <body>
+    <header>    
+        <h1>TK Photography</h1>
+            <nav>
+                <h2>Main Navigation</h2>
+                <ol>
+                    <li>About</li>
+                    <li>Gallery</li>
+                    <li>Contact</li>
+                    <li>top</li>
+                </ol>
+            </nav>
+    </header>
+
+<main>
+    <section>
+        <h2>About</h2>
+            <p>Hello!</p> 
+            <p>I'm TK and I'm a photographer. I love looking at life through the lens of my camera. 
+            Landscape photography is my speciality and it's taken me all over the world.</p>
+    </section>
+        <section>
+                <h2>Gallery</h2>
+                    <p>Here are some highlights of my work. The locations and year are in the caption.</p>
+            <div>
+                <img src="Images/Chile.png" alt="Ocean front in Chile"> 
+                <p>Chile, 2001</p>
+            </div>
+
+            <div>
+                <img src="Images/Guatemala.png" alt="Flower field in front of a lake in Guatemala">
+                <p>Guatemala, 1997</p>
+            </div>
+
+            <div>
+                <img src="Images/Hawaii.png" alt="View of the Hawaii island">
+                <p>Hawaii, 2010</p>
+            </div>
+
+            <div>
+                <img src="Images/Iran.png" alt="Iran desert">
+                <p>Iran, 1999</p>
+            </div>
+
+            <div>
+                <img src="Images/Ireland.png" alt="Green fills of Ireland">
+                <p>Ireland, 2012</p>
+            </div>
+
+            <div>
+                <img src="Images/Italy.png" alt="A mountain valley in Italy">
+                <p>Italy, 2015</p>
+            </div>
+
+            <div>
+                <img src="Images/Moab-Desert.png" alt="Moab Desert at Sunrise">
+                <p>Moab Desert, 2020</p>
+            </div>
+
+            <div>
+                <img src="Images/Rocky-Mountains.png" alt="Rocky Mountain pillars covered in snow">
+                <p>Rocky Mountains, 2009</p>
+            </div>
+
+            <div>
+                <img src="Images/Switzerland.png" alt="">
+                <p>Switzerland, 2014</p>
+            </div>
+
+            <div>
+                <img src="Images/UK.png" alt="">
+                <p>UK, 2005</p>
+            </div>
+
+            <div>
+                <img src="Images/USA.png" alt="">
+                <p>USA, 2021</p>
+            </div>
+            <div>
+                <img src="Images/Wyoming.png" alt="">
+                <p>Wyoming, 2021</p>
+            </div>
+        </section>
     
+    <section>
+        <h2>Contact</h2>
+        <p>Please fill out this form and I'll connect with you soon.</p>
+        <form>
+            <!--Your contact information?-->
+            <label for="myName" id="Name">Name</label> 
+            <input type="email" name="myEmail" id="myEmail" placeholder="Your full name" required>
+            
+            <label for="myEmail" id="Email">Email</label> 
+            <input type="text" name="myName" id="myName" placeholder="Enter your email address" required>
+
+            <!--Issue with the ID? Check with Prof-->
+            <label for="myMessage" id="label-block">Message</label>
+            <textarea name="Messages" id="myMessages" rows="4" cols="40">What can I help you with?</textarea>
+            
+
+            <div id="myButtons">
+                <input type="submit" value="Submit">
+            </div>
+        </form>
+    </section>
+</main>
+
+    <footer>
+        <small>Copyright 2021 TK Photography</small>
+    </footer>
 </body>
 </html>
