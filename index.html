@@ -10,89 +10,88 @@
 <body>
     <header>    
         <h1>TK Photography</h1>
+    </header>
             <nav>
                 <h2>Main Navigation</h2>
                 <ol>
-                    <li>About</li>
-                    <li>Gallery</li>
-                    <li>Contact</li>
-                    <li>top</li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#top">top</a></li>
                 </ol>
             </nav>
-    </header>
-
 <main>
-    <section>
+    <section id="about">
         <h2>About</h2>
             <p>Hello!</p> 
             <p>I'm TK and I'm a photographer. I love looking at life through the lens of my camera. 
             Landscape photography is my speciality and it's taken me all over the world.</p>
     </section>
-        <section>
+        <section id="gallery">
                 <h2>Gallery</h2>
                     <p>Here are some highlights of my work. The locations and year are in the caption.</p>
             <figure>
                 <img src="Images/Chile.png" alt="Ocean front in Chile"> 
-                <p>Chile, 2001</p>
+                <figcaption>Chile, 2001</figcaption>
             </figure>
 
             <figure>
                 <img src="Images/Guatemala.png" alt="Flower field in front of a lake in Guatemala">
-                <p>Guatemala, 1997</p>
+                <figcaption>Guatemala, 1997</figcaption>
             </figure>
 
             <figure>
                 <img src="Images/Hawaii.png" alt="View of the Hawaii island">
-                <p>Hawaii, 2010</p>
-            </figure>
+                <figcaption>Hawaii, 2010</figcaption>
+            </figure>   
 
             <figure>
                 <img src="Images/Iran.png" alt="Iran desert">
-                <p>Iran, 1999</p>
+                <figcaption>Iran, 1999</figcaption>
             </figure>
 
             <figure>
                 <img src="Images/Ireland.png" alt="Green fills of Ireland">
-                <p>Ireland, 2012</p>
+                <figcaption>Ireland, 2012</figcaption>
             </figure>
 
             <figure>
                 <img src="Images/Italy.png" alt="A mountain valley in Italy">
-                <p>Italy, 2015</p>
+                <figcaption>Italy, 2015</figcaption>
             </figure>
 
             <figure>
                 <img src="Images/Moab-Desert.png" alt="Moab Desert at Sunrise">
-                <p>Moab Desert, 2020</p>
+                <figcaption>Moab Desert, 2020</figcaption>
             </figure>
 
             <figure>
                 <img src="Images/Rocky-Mountains.png" alt="Rocky Mountain pillars covered in snow">
-                <p>Rocky Mountains, 2009</p>
+                <figcaption>Rocky Mountains, 2009</figcaption>
             </figure>
 
             <figure>
                 <img src="Images/Switzerland.png" alt="">
-                <p>Switzerland, 2014</p>
+                <figcaption>Switzerland, 2014</figcaption>
             </figure>
 
             <figure>
                 <img src="Images/UK.png" alt="">
-                <p>UK, 2005</p>
-            </figure>
+                <figcaption>UK, 2005</figcaption>
+            </figure>   
 
             <figure>
                 <img src="Images/USA.png" alt="">
-                <p>USA, 2021</p>
+                <figcaption>USA, 2021</figcaption>
             </figure>
 
             <figure>
                 <img src="Images/Wyoming.png" alt="">
-                <p>Wyoming, 2021</p>
+                <figcaption>Wyoming, 2021</figcaption>
             </figure>
         </section>
     
-    <section>
+    <section id="contact">
         <h2>Contact</h2>
         <p>Please fill out this form and I'll connect with you soon.</p>
         <form>
@@ -107,13 +106,12 @@
             <label for="myMessage" id="Message">Message</label>
                 <input type="text" name="myMessage" id="myMessage" placeholder="What can I help you with?" required>
         
-            <div id="myButtons">
-                <input type="submit" value="Submit">
+            <div>
+                <input type="submit" id="myButton" value="Submit">
             </div>
         </form>
     </section>
 </main>
-
     <footer>
         <small>Copyright 2021 TK Photography</small>
     </footer>
