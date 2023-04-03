@@ -106,6 +106,7 @@ input {
 }
 
 #myButton {
+  margin-top: 30px;
   margin-left: 180px;
   width: 135px;
 }
@@ -156,6 +157,7 @@ footer {
   nav ol {
     display: flex;
     justify-content: right;
+    margin-right: 15px;
   }
   body {
     min-width:1300px;
