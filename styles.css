@@ -106,8 +106,8 @@ input {
 }
 
 #myButton {
-  margin-left: 165px;
-  width: 175px;
+  margin-left: 180px;
+  width: 135px;
 }
 footer {
   color: #ffffff;
@@ -135,5 +135,53 @@ footer {
   }
   h1 {
     text-align: left;
+  }
+  input {
+    margin: 12px;
+    margin-left: 253px;
+    width: 370px;
+  }
+  label {
+    margin-left: 260px;
+    text-align: left;
+  }
+  #myButton {
+    margin-left: 355px;
+    width: 135px;
+  }
+}
+
+@media screen and (min-width:1300px) {
+  nav li {
+    justify-content: center;
+  }
+  body {
+    min-width:1300px;
+    background-color: #000000;
+    text-align: center;
+  }
+
+#gallery h2 {
+  text-align: center;
+}
+  .Images{
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+  }
+  h1 {
+    text-align: left;
+  }
+  input {
+    margin: 12px;
+    margin-left: 253px;
+    width: 370px;
+  }
+  label {
+    margin-left: 260px;
+    text-align: left;
+  }
+  #myButton {
+    margin-left: 355px;
+    width: 135px;
   }
 }
