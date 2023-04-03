@@ -152,8 +152,9 @@ footer {
 }
 
 @media screen and (min-width:1300px) {
-  nav li {
-    justify-content: center;
+  nav ol {
+    display: flex;
+    justify-content: right;
   }
   body {
     min-width:1300px;
