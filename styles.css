@@ -146,8 +146,9 @@ footer {
     text-align: left;
   }
   #myButton {
-    margin-left: 355px;
+    margin-left: 375px;
     width: 135px;
+    margin-top: 30px;
   }
 }
 
@@ -174,15 +175,16 @@ footer {
   }
   input {
     margin: 12px;
-    margin-left: 253px;
-    width: 370px;
+    margin-left: 345px;
+    width: 635px;
   }
   label {
-    margin-left: 260px;
+    margin-left: 358px;
     text-align: left;
   }
   #myButton {
-    margin-left: 355px;
-    width: 135px;
+    margin-left: 515px;
+    width: 275px;
+    margin-top: 30px;
   }
 }
