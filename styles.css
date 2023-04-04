@@ -75,6 +75,23 @@ h2 {
   text-transform: uppercase; 
 }
 
+figure {
+  position: relative;
+}
+
+figure img {
+  display: center;
+  margin-bottom: 8px;
+}
+
+figcaption {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 0px 10px 15px;
+}
+
 section{
   background-color: #ffffff;
   padding-top: 20px;
@@ -96,19 +113,28 @@ input, label {
   display:block;
 }
 label {
-  margin-left: 65px;
+  text-transform: uppercase;
+  margin-left: 45px;
   text-align: left;
 }
 input {
   margin: 12px;
-  margin-left: 55px;
-  width: 370px;
+  text-transform: uppercase;
+  margin-left: 31px;
+  height: 30px;
+  width: 425px;
+}
+::placeholder { 
+  color: #007d7b;
 }
 
 #myButton {
+  border-radius: 20px 20px 20px 20px;
+  background-color: #007d7b;
+  color: #ffffff;
   margin-top: 30px;
-  margin-left: 180px;
-  width: 135px;
+  margin-left: 145px;
+  width: 200px;
 }
 footer {
   color: #ffffff;
@@ -139,17 +165,17 @@ footer {
   }
   input {
     margin: 12px;
-    margin-left: 253px;
-    width: 370px;
+    margin-left: 210px;
+    width: 460px;
   }
   label {
-    margin-left: 260px;
+    margin-left: 220px;
     text-align: left;
   }
   #myButton {
-    margin-left: 375px;
-    width: 135px;
-    margin-top: 30px;
+    margin-left: 270px;
+    width: 335px;
+    margin-top: 40px;
   }
 }
 
@@ -177,16 +203,16 @@ footer {
   }
   input {
     margin: 12px;
-    margin-left: 345px;
-    width: 635px;
+    margin-left: 300px;
+    width: 700px;
   }
   label {
-    margin-left: 358px;
+    margin-left: 318px;
     text-align: left;
   }
   #myButton {
-    margin-left: 515px;
-    width: 275px;
+    margin-left: 480px;
+    width: 340px;
     margin-top: 30px;
   }
 }
