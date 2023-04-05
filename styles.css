@@ -92,7 +92,7 @@ figcaption {
   padding: 0px 10px 15px;
 }
 
-#bottomWhite {
+.bottomWhite {
   color: #ffffff;
   margin-bottom: 5px;
 }
@@ -102,16 +102,16 @@ figcaption {
   margin-bottom: 5px;
 }
 
-#bottomBlack {
+.topBlack {
   margin-bottom: 240px;
 }
 
-#topWhite {
+.topWhite {
   color: #ffffff;
   margin-bottom: 250px;
 }
 
-#longTop {
+.longTop {
   margin-bottom: 585px; 
 }
 
